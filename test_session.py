@@ -20,4 +20,3 @@ def test_add_negative():
 def test_add_string_expect_exception():
     with pytest.raises(TypeError):
         add_numbers(4, 'I do not belong here')
-
