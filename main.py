@@ -1,7 +1,4 @@
-def hello():
-  print("Hi")
-  
- def bye():
-  print("Bye")
-  
-print(hello())
+def add(a, b):
+    return a + b
+def sub(a, b):
+  return a - b
